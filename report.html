@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Report Center | MLAMKE SMS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-blur bg-one"></div>
+  <div class="bg-blur bg-two"></div>
+  <div class="bg-blur bg-three"></div>
+
+  <main class="page-shell page-top-gap">
+    <nav class="topbar glass">
+      <div class="brand">MLAMKE SMS</div>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portal.html">Student Portal</a></li>
+        <li><a class="active" href="report.html">Report Center</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="panel glass">
+      <h1>Report Center</h1>
+      <p class="sub-text">Generate and review student performance reports.</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Student</th>
+              <th>Class</th>
+              <th>Average</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Amina Juma</td><td>Form 3</td><td>82%</td><td>Excellent</td></tr>
+            <tr><td>Salim Omari</td><td>Form 2</td><td>74%</td><td>Good</td></tr>
+            <tr><td>Neema Ally</td><td>Form 4</td><td>68%</td><td>Improving</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="action-row">
+        <button id="download-report" class="cta" type="button">Download Report</button>
+        <button id="print-report" class="cta outline" type="button">Print Report</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
